@@ -1,6 +1,6 @@
 # Task-Managment
 
-![HomePage] ![agua](https://github.com/krh1102002/task-management/assets/99308881/50b16400-06d7-4101-a9ae-7d98ec90ca2a)
+ ![agua](https://github.com/krh1102002/task-management/assets/99308881/50b16400-06d7-4101-a9ae-7d98ec90ca2a)
 
 
 TaskManagment
