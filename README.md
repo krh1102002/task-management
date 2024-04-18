@@ -1,6 +1,7 @@
 # Task-Managment
 
-![HomePage] (https://github.com/krh1102002/task-management/assets/99308881/76bec86d-4f78-491b-98fd-0597017b8ca5)
+![HomePage] ![agua](https://github.com/krh1102002/task-management/assets/99308881/50b16400-06d7-4101-a9ae-7d98ec90ca2a)
+
 
 TaskManagment
  is a website build using React, Node.js, Express.js, MongoDB , TailwindCss where user can manage there tasks
