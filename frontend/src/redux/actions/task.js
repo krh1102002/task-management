@@ -15,7 +15,7 @@ export const getAllTasks = () => async (dispatch) => {
 
     const task = await axios({
       method: "GET",
-      url: "https://task-management-5-h75q.onrender.com/task",
+      url: "http://localhost:4000/task",
     });
 
     dispatch(allTaskSuccess(task.data));
@@ -28,7 +28,7 @@ export const addTask = (data) => async (dispatch) => {
   try {
     const task = await axios({
       method: "POST",
-      url: "https://task-management-5-h75q.onrender.com/task",
+      url: "http://localhost:4000/task",
       data,
     });
 
@@ -45,7 +45,7 @@ export const updateTask = (data) => async (dispatch) => {
     console.log(data);
     const task = await axios({
       method: "PUT",
-      url: "https://task-management-5-h75q.onrender.com/task",
+      url: "http://localhost:4000/task",
       data,
     });
     if (data.status === "completed") {
@@ -61,7 +61,7 @@ export const deleteTask = (task) => async (dispatch) => {
   try {
     await axios({
       method: "DELETE",
-      url: "https://task-management-5-h75q.onrender.com/task",
+      url: "http://localhost:4000/task",
       data: { _id: task._id },
     });
     if (task.status === "completed")
