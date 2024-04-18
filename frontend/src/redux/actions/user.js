@@ -5,7 +5,7 @@ export const signIn = (data) => async (dispatch) => {
   try {
     const user = await axios({
       method: "POST",
-      url: "http://localhost:4000/user/signin",
+      url: "https://task-management-5-h75q.onrender.com/user/signin",
       data,
     });
     axios.defaults.headers.common[
@@ -25,7 +25,7 @@ export const signUp = (data) => async (dispatch) => {
   try {
     const user = await axios({
       method: "POST",
-      url: "http://localhost:4000/user/signin/user/signup",
+      url: "https://task-management-5-h75q.onrender.com/user/signup",
       data,
     });
     axios.defaults.headers.common[
@@ -47,7 +47,7 @@ export const getUserDetail = (data) => async (dispatch) => {
 
     const user = await axios({
       method: "GET",
-      url: "http://localhost:4000/user/signin/user",
+      url: "https://task-management-5-h75q.onrender.com/user",
     });
 
     dispatch(userSuccess(user.data));
